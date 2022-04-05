@@ -1,0 +1,34 @@
+.body{
+background-image: url();
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: chartreuse;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.headerWrapper{
+    height: 100px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    color:steelblue ;
+    cursor:pointer;
+}
+.headerRight{
+    display: flex;
+    align-items: center;
+}
+.headerbarIconsContainer{
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #555;
+}
